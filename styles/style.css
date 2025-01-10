@@ -1,0 +1,92 @@
+/* This is font section */
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
+/* default section */
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Start header Section */
+
+/* Start Nav Section */
+nav .nav-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 144px;
+    padding: 24px;
+}
+
+nav .nav-div .nav-div-left{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.nav-btn{
+    font-size:10px;
+    padding:15px;
+    color:#006A50;
+    border:none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+nav .nav-div .nav-div-right a{
+    text-decoration: none;
+
+}
+
+/* Start Banner Section */
+.banner-section{
+
+}
+
+.banner{
+        width:1152px;
+    height:560;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.banner-section .banner .banner-left{
+    width:560px;
+    height: 294px;
+    margin:106px 54px;
+}
+
+.banner-img{
+    width:427px;
+    height:360px;
+   
+
+}
+.banner-h6{
+    color:#006A50;
+    font-size:21px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner-h1{
+    font-size:56px;
+    font-weight: bold;
+}
+.banner-btn{
+    background-color: #006A50;
+    color: white;
+    padding:13px 27px;
+    border-radius: 8px;
+    margin-top:15px;
+    border:none;
+    
+}
+.banner-color{
+    background-color:#C6E4D6;
+}
