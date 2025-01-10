@@ -8,6 +8,10 @@
 *{
     margin:0;
     padding: 0;
+    
+}
+body{
+    background-color: #F1F1F3;
 }
 
 /* Start header Section */
@@ -89,4 +93,151 @@ nav .nav-div .nav-div-right a{
 }
 .banner-color{
     background-color:#C6E4D6;
+}
+
+/* Start main section */
+main{
+    margin-top:70px;
+}
+.main-div{
+    
+   width:1152px;
+    height:560;
+    margin:0 auto;
+}
+.sub-div{
+    display: flex;
+    justify-content: space-between;
+}
+.main-h2{
+    color:#0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom:20px;
+}
+.sub1{
+    background-color: #FFFFFF;
+    width:302px;
+    height:244px;
+    border-radius: 8px;
+    padding:24px;
+    margin:10px;
+    box-shadow: 4px 4px 4px;
+
+}
+.sub1:hover{
+       box-shadow: 8px 8px 8px white;
+       background-color: aqua;
+
+}
+.main-img{
+height: 44px;
+width:44px;
+padding: 8px;
+margin-bottom: 10px;    
+}
+.main-h4{
+    color:#0E0E0E;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.main-p{
+    color:#0E0E0E;
+    font-size: 16px;
+    font-weight: 200;
+}
+.vision{
+    width:1152px;
+    height:560;
+    margin:0 auto;
+
+}
+
+.vision1{
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.vision-h2{
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.vision-p{
+    font-size:16px;
+    font-weight: 200;
+    color:#0E0E0E;
+    margin:20px 0;
+}
+.default{
+    justify-content: space-between;
+}
+.vis1{
+    background-color:#91b5f1 ;
+}
+.vis2{
+    background-color: #95bbaa;
+}
+.vis3{
+    background-color: #b49d66;
+}
+
+.vision3{
+    background-color: #FFFFFF;
+   box-shadow: 40px white  ;
+   padding:48px;
+   margin:30px 0;
+    
+}
+.vision-h3{
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+.vision-p{
+    font-size:13px;
+    font-weight: 400;
+}
+.dark{
+    color:#0E0E0E;
+}
+
+.vision-btn1{
+    background-color: #5490F5;
+    padding:11px 20px;
+    margin:10px 0;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.vision-btn2{
+    background-color: #09A15C;
+    padding:11px 20px;
+    margin:10px 0;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.vision-btn3{
+    background-color: #FFC239;
+    padding:11px 20px;
+    margin:10px 0;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.vision-btn1:hover{
+    padding:15px 23px;
+
+}
+.vision-btn2:hover{
+    padding:15px 23px;
+
+}
+.vision-btn3:hover{
+    padding:15px 23px;
+
 }
