@@ -10,11 +10,18 @@
     padding: 0;
     
 }
+
 .hobe:hover{
     box-shadow: 20px 5px 3px;
     background-color:#FFFFFF;
     transition: 0.3s;
 }
+.hobee:hover{
+    box-shadow: 20px 5px 3px;
+    background-color:#C6E4D6;
+    transition: 0.3s;
+}
+bo
 body{
     background-color: #F1F1F3;
 }
@@ -427,7 +434,11 @@ tr:hover{
     transition: 0.3s;
 
 }
+.clu{
+    color:#0E0E0E;
+    opacity: 50%;
 
+}
 
 .clone-mar{
     margin:40px 34px;
@@ -500,7 +511,8 @@ tr:hover{
     margin-top:20px;
 }
 .don-btn{
-    padding:5px;
+    padding:10px;
+    margin-bottom: 5px;
     background-color: #006A50;
     border-radius: 4px;
     font-size: 10px;
@@ -553,6 +565,7 @@ tr:hover{
     border-radius: 5px;
     margin-left: -15px;
     background-color:#006A50 ;
+    color:white;
 
 }
 .src-btn:hover{
