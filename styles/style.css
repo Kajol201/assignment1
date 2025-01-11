@@ -76,6 +76,7 @@ nav .nav-div .nav-div-right a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 8px;
     
     
 }
@@ -88,6 +89,7 @@ nav .nav-div .nav-div-right a{
 .banner-img{
     width:427px;
     height:360px;
+    margin-right:20px;
    
 
 }
@@ -286,6 +288,7 @@ margin-bottom: 10px;
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position:47px 40px ;
+    border:1px groove;
 }
 .oponion-div1{
      border-radius: 8px;
@@ -354,6 +357,7 @@ tr:hover{
 .recent-main{
      width:1152px;
     margin:0 auto;
+   
 
 }
 .recent-head{
@@ -366,6 +370,7 @@ tr:hover{
     font-weight: 300;
     font-color:#0E0E0E;
     margin-top:50px;
+    padding-bottom: 20px;
 }
 .recent-div2-abba{
     background-color: #FFFFFF;
@@ -499,11 +504,11 @@ tr:hover{
     background-color: rgb(198, 228, 214);
 }
 .in{
-   width:732px;
+   width:790px;
    margin-left:180px;
    padding:10px 20px 10px 20px;
    border-radius: 8px;
-   border:1px solid white;
+   border:1px solid #555;
    text-align:center;
 }
 .donate-btn{
