@@ -274,3 +274,92 @@ th{
     
     height:20px;
 }
+
+/* start Recent Section */
+.recent{
+    margin-top:70px;
+}
+.recent-main{
+     width:1152px;
+    margin:0 auto;
+
+}
+.recent-head{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.recent-p{
+    font-size:10px;
+    font-weight: 300;
+    font-color:#0E0E0E;
+    margin-top:50px;
+}
+.recent-div2-abba{
+    background-color: #FFFFFF;
+   box-shadow: 40px white;
+   border-radius: 8px;
+   margin-top: 20px;
+
+}
+.recent-div2{
+    display: flex;
+    align-items: center;
+}
+.recent-img{
+    width:290px;
+    height:218px;
+    margin: 34px;
+   
+    border-radius:17px;
+
+
+}
+.recent-sub-div2{
+    width: 521px;
+    height: 211px;
+    background-color: #FFFFFF;
+   box-shadow: 40px white;
+    
+   
+
+}
+
+.recent-pa{
+    width:528px;
+    height:21px;
+     font-size:10px;
+    font-weight: 300;
+    font-color:#0E0E0E;
+    margin:9px 0px 0px 0px;
+   
+}
+.recent-img-icon{
+    height: 28px;
+    width: 95px;
+}
+.recent-div-p{
+    display: flex;
+    gap:10px;
+}
+.recent-pu{
+    margin-bottom: 57px;
+
+}
+.recent-btn{
+    margin:37px 0px 0px 0px;
+    padding:7px 12px;
+    font-size: 8px;
+    background-color: #006A50;
+    border:none;
+    border-radius: 5px;
+    color:white;
+
+}
+
+.clone-mar{
+    margin:40px 34px;
+}
+.onno{
+    margin-left: 280px;
+}
