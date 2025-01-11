@@ -116,6 +116,7 @@ main{
     margin-bottom:20px;
 }
 .sub1{
+    border-radius: 8px;
     background-color: #FFFFFF;
     width:302px;
     height:244px;
@@ -148,6 +149,7 @@ margin-bottom: 10px;
     font-weight: 200;
 }
 .vision{
+    border-radius: 8px;
     width:1152px;
     height:560;
     margin:0 auto;
@@ -188,6 +190,7 @@ margin-bottom: 10px;
    box-shadow: 40px white  ;
    padding:48px;
    margin:30px 0;
+   border-radius: 8px;
     
 }
 .vision-h3{
@@ -240,4 +243,34 @@ margin-bottom: 10px;
 .vision-btn3:hover{
     padding:15px 23px;
 
+}
+.oponion-div1{
+     border-radius: 8px;
+    width:1152px;
+    margin:0 auto;
+    
+
+}
+.oponion-div2{
+    height:409px;
+    background-color: #FFFFFF;
+   box-shadow: 40px white;
+   border-radius: 8px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.table-op{
+    border-collapse: collapse;
+    width:1110px;
+    height: 300px;
+    margin:0 auto;
+}
+tr{
+    height: 10px;
+    
+}
+th{
+    
+    height:20px;
 }
