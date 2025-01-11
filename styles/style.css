@@ -10,6 +10,11 @@
     padding: 0;
     
 }
+.hobe:hover{
+    box-shadow: 20px 5px 3px;
+    background-color:#FFFFFF;
+    transition: 0.3s;
+}
 body{
     background-color: #F1F1F3;
 }
@@ -32,12 +37,19 @@ nav .nav-div .nav-div-left{
 }
 
 .nav-btn{
-    font-size:10px;
-    padding:15px;
+    font-size:15px;
+    padding:10px;
     color:#006A50;
     border:none;
     border-radius: 8px;
     font-weight: 600;
+    background-color: #FFFFFF;
+}
+.nav-btn:hover{
+    background-color: #006A50;
+    color:white;
+    padding:15px;
+    transition: 0.3s;
 }
 
 nav .nav-div .nav-div-right a{
@@ -91,6 +103,11 @@ nav .nav-div .nav-div-right a{
     border:none;
     
 }
+.banner-btn:hover{
+    background-color: #5490F5;
+    padding:18px 30px;
+    transition: 0.3s;
+}
 .banner-color{
     background-color:#C6E4D6;
 }
@@ -129,6 +146,8 @@ main{
 .sub1:hover{
        box-shadow: 8px 8px 8px white;
        background-color: aqua;
+       padding:27px;
+       transition: 0.3s;
 
 }
 .main-img{
@@ -214,6 +233,7 @@ margin-bottom: 10px;
     font-size: 10px;
     border: none;
     border-radius: 8px;
+    color:white;
 }
 .vision-btn2{
     background-color: #09A15C;
@@ -222,6 +242,7 @@ margin-bottom: 10px;
     font-size: 10px;
     border: none;
     border-radius: 8px;
+      color:white;
 }
 
 .vision-btn3{
@@ -231,18 +252,33 @@ margin-bottom: 10px;
     font-size: 10px;
     border: none;
     border-radius: 8px;
+      color:white;
 }
 .vision-btn1:hover{
     padding:15px 23px;
+    background-color: #FFC239;
+    color:white;
+    transition: 0.3s;
 
 }
 .vision-btn2:hover{
     padding:15px 23px;
+     background-color: #5490F5;
+    color:white;
+    transition: 0.3s;
 
 }
 .vision-btn3:hover{
     padding:15px 23px;
+     background-color: #5490F5;
+    color:white;
+    transition: 0.3s;
 
+}
+.background-img{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position:47px 40px ;
 }
 .oponion-div1{
      border-radius: 8px;
@@ -260,20 +296,49 @@ margin-bottom: 10px;
    justify-content: center;
    align-items: center;
 }
+.oponion-heading{
+    margin-bottom:20px;
+}
 .table-op{
     border-collapse: collapse;
+    border:1px solid ridge;
     width:1110px;
-    height: 300px;
+    height: 156px; 
     margin:0 auto;
 }
-tr{
-    height: 10px;
-    
+.tend{
+    display: flex;
+    justify-content: space-between;
 }
 th{
-    
-    height:20px;
+    padding: 15px;
+    background-color:#C6E4D6 ;
+   
 }
+td{
+    padding: 15px;
+   
+}
+tr{
+    background-color:#e0dfdb;
+}
+tr:hover{
+    background-color: #FFC239;
+    padding: 100px;
+   box-shadow: 10px #FFC239;
+}
+.btno{
+    padding: 9px;
+    border: 1px beige;
+    border-radius: 8px;
+    background-color: #C6E4D6;
+}
+.btno:hover{
+    padding:15px;
+    background-color: #5490F5;
+    transition: 0.3s;
+}
+
 
 /* start Recent Section */
 .recent{
@@ -356,6 +421,13 @@ th{
     color:white;
 
 }
+.recent-btn:hover{
+    background-color: #FFC239;
+    padding:9px 14px;
+    transition: 0.3s;
+
+}
+
 
 .clone-mar{
     margin:40px 34px;
@@ -399,6 +471,13 @@ th{
    border-radius: 8px;
     
 }
+.hun:hover{
+    box-shadow: 10px 7px 5px rgb(77, 131, 16);
+    background-color: #5490F5;
+    padding:16px;
+    transition: 0.3s;
+
+}
 .centa{
     height:20px;
     margin-top:30px;
@@ -428,6 +507,11 @@ th{
     color:white;
     border:none;
 
+}
+.don-btn:hover{
+    padding: 14px;
+    background-color: #b49d66;
+    transition: 0.3s;
 }
 
 .search-on{
@@ -468,10 +552,15 @@ th{
     padding:8px;
     border-radius: 5px;
     margin-left: -15px;
-    
     background-color:#006A50 ;
 
 }
+.src-btn:hover{
+    padding:8px 10px;
+    background-color: #5490F5;
+    transition: 0.3s;
+}
+
 .search{
     margin-top: 60px;
 }
